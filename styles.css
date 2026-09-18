@@ -17,12 +17,14 @@ body {
 }
 
 .product {
-    width: 90%; /* 10% */
+    width: 90%;
+    /* 10% */
     margin: 0 auto;
     background-color: white;
     border-radius: 8px;
     max-width: 400px;
 }
+
 
 .product__category,
 .product__description,
@@ -50,10 +52,10 @@ body {
 }
 
 .price__present {
-        font-size: 2rem;
-        color: var(--green-500);
-        font-weight: 700;
-        font-family: "Fraunces", serif;
+    font-size: 2rem;
+    color: var(--green-500);
+    font-weight: 700;
+    font-family: "Fraunces", serif;
 }
 
 .price__previous {
@@ -75,15 +77,14 @@ body {
 }
 
 @media (min-width: 700px) {
-   .product {
+    .product {
         display: flex;
-        align-items: center;
         max-width: 700px;
         gap: 1rem;
-        padding-right: 1rem;
-   }
+    }
 
-   .product__content {
-        padding: 0;
-   }
+    .product__content {
+        align-self: center;
+    }
+
 }
